@@ -1,0 +1,67 @@
+{
+  // Place your settings in this file to overwrite the default settings
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontSize": 16,
+  "material-icon-theme.folders.theme": "specific",
+  "editor.fontFamily": "Dank Mono, Monaco, 'Courier New', monospace",
+  "editor.lineHeight": 33,
+  "editor.cursorBlinking": "smooth",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true
+  },
+  // let editor format using prettier for all other files
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "eslint.autoFixOnSave": true,
+  "editor.tabSize": 2,
+  "terminal.integrated.fontSize": 19,
+  // "workbench.fontAliasing": "antialiased",
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#001627",
+    "[Legacy - Material Theme Palenight High Contrast]": {
+      "sideBar.background": "#001627",
+      "activityBar.background": "#001627",
+      "editor.background": "#001627",
+      "statusBar.background": "#001627",
+      "tab.activeBackground": "#001627",
+      "sideBarSectionHeader.background": "#001627",
+      "titleBar.activeBackground": "#001627",
+      "editorGroupHeader.tabsBackground": "#001627",
+      // Light
+      "tab.hoverBackground": "#282D3E",
+      "tab.inactiveBackground": "#1A1E2B",
+      "button.hoverBackground": "#282D3E"
+    }
+  },
+  "window.zoomLevel": -2,
+  "todohighlight.keywords": [
+    {
+      "text": "HINT:",
+      "color": "#fff",
+      "borderRadius": "5px",
+      "backgroundColor": "#ffc08c"
+    }
+  ],
+  "workbench.colorTheme": "Legacy - Material Theme Palenight High Contrast",
+  "explorer.openEditors.visible": 0,
+  "workbench.activityBar.visible": true,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.alwaysShowStatus": true,
+  "editor.fontLigatures": true,
+  "carbon.backgroundColor": "#001627",
+  "breadcrumbs.enabled": false,
+  "editor.renderControlCharacters": false,
+  "city-lights-icons-vsc.hidesExplorerArrows": true,
+  "search.exclude": {
+    "**/.next": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
